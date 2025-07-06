@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.inventory-selection button {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.inventory-selection button:hover {
+    background-color: #45a049;
+}
+
+form {
+    margin-top: 30px;
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.result-section {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}

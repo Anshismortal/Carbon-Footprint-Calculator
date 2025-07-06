@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carbon Footprint Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Industrial Carbon Footprint Calculator</h1>
+    <p>Select an inventory and enter usage details</p>
+  </header>
+
+  <main>
+    <div class="inventory-selection">
+      <button onclick="selectInventory('Fuel')">Fuel</button>
+      <button onclick="selectInventory('Electricity')">Electricity</button>
+      <button onclick="selectInventory('Textile')">Textile</button>
+      <button onclick="selectInventory('Food')">Food</button>
+      <button onclick="selectInventory('Paper')">Paper</button>
+    </div>
+
+    <form id="inventoryForm" onsubmit="submitInventory(event)">
+      <h2 id="inventoryTitle"></h2>
+      <div id="resourceInputs"></div>
+      <button type="submit" class="submit-btn">Save Inventory Emission</button>
+    </form>
+
+    <div class="result-section">
+      <button onclick="goToResults()" class="submit-btn">Go to Final Emission Result</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
